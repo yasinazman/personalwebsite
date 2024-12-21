@@ -126,13 +126,10 @@ span {
     left: 45%;
 }
 
-/* Responsive Design */
-
-/* Tablet Screens */
+/* Responsive design */
 @media (max-width: 1024px) {
     nav {
         flex-direction: column;
-        padding: 20px 30px;
     }
 
     nav ul li {
@@ -142,11 +139,10 @@ span {
     .detail {
         margin-top: 5%;
         text-align: center;
-        padding: 0 10%;
     }
 
     .detail h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .image {
@@ -156,7 +152,6 @@ span {
     }
 }
 
-/* Small Tablets and Mobile Portrait (<= 768px) */
 @media (max-width: 768px) {
     .logo a {
         font-size: 30px;
@@ -164,16 +159,6 @@ span {
 
     nav {
         padding: 10px;
-    }
-
-    nav ul {
-        justify-content: center;
-    }
-
-    .detail {
-        margin-top: 5%;
-        text-align: center;
-        padding: 0 5%;
     }
 
     .detail h1 {
@@ -186,16 +171,7 @@ span {
     }
 }
 
-/* Mobile Devices (<= 480px) */
 @media (max-width: 480px) {
-    .logo a {
-        font-size: 25px;
-    }
-
-    nav {
-        padding: 10px;
-    }
-
     .detail {
         text-align: center;
         margin-top: 5%;
@@ -203,7 +179,7 @@ span {
     }
 
     .detail h1 {
-        font-size: 2.2rem;
+        font-size: 2.5rem;
     }
 
     .image {
@@ -215,18 +191,6 @@ span {
     .image img {
         position: static;
         transform: none;
-    }
-
-    nav ul {
-        flex-direction: column;
-    }
-
-    nav ul li {
-        margin: 10px 0;
-    }
-
-    nav ul li a {
-        padding: 1rem 2rem;
     }
 }
 
